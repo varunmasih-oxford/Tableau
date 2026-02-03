@@ -231,3 +231,140 @@ Understanding which chart to use is essential for clear and effective data story
 | Show process stages          | Funnel Chart         |
 | Show project schedule        | Gantt Chart          |
 
+---
+
+
+
+# Sample Datasets for Different Chart Types
+
+
+## 1. Compare Categories — Bar / Column Chart
+
+**Use Case:** Compare performance across different groups.
+
+| Product Category | Sales Amount |
+| ---------------- | ------------ |
+| Electronics      | 15000        |
+| Furniture        | 12000        |
+| Clothing         | 9000         |
+| Grocery          | 7000         |
+
+---
+
+## 2. Show Trend Over Time — Line / Area Chart
+
+**Use Case:** Track changes over time.
+
+| Month | Orders |
+| ----- | ------ |
+| Jan   | 120    |
+| Feb   | 150    |
+| Mar   | 170    |
+| Apr   | 160    |
+| May   | 190    |
+| Jun   | 210    |
+
+---
+
+## 3. Show Proportions — Pie / Donut Chart
+
+**Use Case:** Show parts of a whole.
+
+| Segment     | Customers |
+| ----------- | --------- |
+| Consumer    | 500       |
+| Corporate   | 300       |
+| Home Office | 200       |
+
+---
+
+## 4. Show Distribution — Histogram / Box Plot
+
+**Use Case:** Understand spread of numeric values.
+
+| Delivery Delay (Days) |
+| --------------------- |
+| 1                     |
+| 2                     |
+| 2                     |
+| 3                     |
+| 3                     |
+| 4                     |
+| 5                     |
+| 6                     |
+| 7                     |
+| 8                     |
+
+---
+
+## 5. Show Relationship — Scatter Plot
+
+**Use Case:** Identify correlation between two variables.
+
+| Advertising Spend ($) | Sales ($) |
+| --------------------- | --------- |
+| 1000                  | 5000      |
+| 1500                  | 7000      |
+| 2000                  | 9000      |
+| 2500                  | 10000     |
+| 3000                  | 12000     |
+
+---
+
+## 6. Show Geographic Data — Map Chart
+
+**Use Case:** Compare values by location.
+
+| State      | Sales |
+| ---------- | ----- |
+| California | 15000 |
+| Texas      | 12000 |
+| Florida    | 9000  |
+| New York   | 11000 |
+| Illinois   | 8000  |
+
+---
+
+## 7. Show Part-to-Whole Hierarchy — Tree Map
+
+**Use Case:** Show contribution of sub-categories within categories.
+
+| Category    | Sub-Category | Sales |
+| ----------- | ------------ | ----- |
+| Electronics | Phones       | 8000  |
+| Electronics | Laptops      | 7000  |
+| Furniture   | Chairs       | 5000  |
+| Furniture   | Tables       | 4000  |
+| Clothing    | Men          | 4500  |
+| Clothing    | Women        | 4500  |
+
+---
+
+## 8. Show Process Stages — Funnel Chart
+
+**Use Case:** Track drop-off in a process.
+
+| Stage            | Users |
+| ---------------- | ----- |
+| Website Visitors | 5000  |
+| Product Views    | 3500  |
+| Add to Cart      | 2000  |
+| Checkout Started | 1200  |
+| Purchases        | 800   |
+
+---
+
+## 9. Show Project Schedule — Gantt Chart
+
+**Use Case:** Visualize task timelines.
+
+| Task                 | Start Date | End Date  |
+| -------------------- | ---------- | --------- |
+| Requirement Analysis | 01-Jan-24  | 05-Jan-24 |
+| Design Phase         | 06-Jan-24  | 12-Jan-24 |
+| Development          | 13-Jan-24  | 25-Jan-24 |
+| Testing              | 26-Jan-24  | 31-Jan-24 |
+| Deployment           | 01-Feb-24  | 03-Feb-24 |
+
+
+
