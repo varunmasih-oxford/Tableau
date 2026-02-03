@@ -366,5 +366,197 @@ Understanding which chart to use is essential for clear and effective data story
 | Testing              | 26-Jan-24  | 31-Jan-24 |
 | Deployment           | 01-Feb-24  | 03-Feb-24 |
 
+---
 
 
+# How to Read Different Charts
+
+Understanding how to read charts helps students turn data into meaningful insights. Use this guide to learn what to look for in each chart type.
+
+---
+
+## 1. Bar Chart / Column Chart
+
+**Used for:** Comparing different groups
+
+**How to read:**
+
+* Look at the height of bars
+* Taller bar = bigger value
+* Shorter bar = smaller value
+
+**Ask yourself:**
+Which category is highest? Which is lowest?
+
+**Example:**
+If the Electronics bar is tallest, Electronics has the most sales.
+
+---
+
+## 2. Line Chart / Area Chart
+
+**Used for:** Seeing changes over time
+
+**How to read:**
+
+* Follow the direction of the line
+
+  * Line going up = Increase
+  * Line going down = Decrease
+  * Line staying flat = No big change
+
+**Ask yourself:**
+Is the value increasing or decreasing over time?
+
+**Example:**
+If the line rises from January to June, orders are growing.
+
+---
+
+## 3. Pie Chart / Donut Chart
+
+**Used for:** Showing parts of a whole
+
+**How to read:**
+
+* Each slice is a part of 100%
+* Bigger slice = bigger share
+
+**Ask yourself:**
+Which slice is the largest? What percentage does it show?
+
+**Example:**
+If Consumer = 50%, half of all customers are Consumers.
+
+---
+
+## 4. Histogram
+
+**Used for:** Seeing how numbers are spread
+
+**How to read:**
+
+* Bars show ranges of values (like 1–2 days, 3–4 days)
+* Taller bar = more data in that range
+
+**Ask yourself:**
+Where do most values fall?
+
+**Example:**
+If most bars are between 2–4 days, most deliveries take 2–4 days.
+
+---
+
+## 5. Box Plot
+
+**Used for:** Understanding spread and unusual values
+
+**How to read:**
+
+* Line inside box = middle value (median)
+* Box = where most data lies
+* Dots far away = outliers (unusual values)
+
+**Ask yourself:**
+Are there extreme high or low values?
+
+**Example:**
+If one ship mode has many outliers, it sometimes delivers very late.
+
+---
+
+## 6. Scatter Plot
+
+**Used for:** Relationship between two numbers
+
+**How to read:**
+
+* Look at the pattern of dots
+
+  * Dots going upward = As one value increases, the other increases
+  * Dots going downward = One increases, the other decreases
+  * Random dots = No clear relationship
+
+**Ask yourself:**
+Do the dots form a pattern?
+
+**Example:**
+Higher ad spend leading to higher sales shows an upward pattern.
+
+---
+
+## 7. Map Chart
+
+**Used for:** Comparing locations
+
+**How to read:**
+
+* Darker color or bigger circle = higher value
+
+**Ask yourself:**
+Which location stands out the most?
+
+**Example:**
+If Texas is darkest, Texas has the highest sales.
+
+---
+
+## 8. Tree Map
+
+**Used for:** Showing big categories and small parts inside them
+
+**How to read:**
+
+* Bigger box = bigger value
+* Small boxes inside = sub-categories
+
+**Ask yourself:**
+Which category takes the most space?
+
+**Example:**
+Electronics being the biggest box means it has the most sales overall.
+
+---
+
+## 9. Funnel Chart
+
+**Used for:** Steps in a process
+
+**How to read:**
+
+* Funnel gets narrower because numbers decrease
+* Big drop between steps = many people leaving
+
+**Ask yourself:**
+Where is the biggest drop?
+
+**Example:**
+A big drop from Cart to Purchase means customers are not completing checkout.
+
+---
+
+## 10. Gantt Chart
+
+**Used for:** Project timelines
+
+**How to read:**
+
+* Each bar = one task
+* Length of bar = how long task takes
+* Overlapping bars = tasks happening at the same time
+
+**Ask yourself:**
+Which task takes the longest? Are tasks overlapping?
+
+**Example:**
+If Development has the longest bar, that task takes the most time.
+
+---
+
+## Five Simple Steps to Read Any Chart
+
+1. Read the title
+2. Look at labels (what is being measured?)
+3. Check units (days, dollars, percentages, etc.)
+4. Find the highest, lowest, or biggest change
+5. Ask: What is this chart trying to tell me?
