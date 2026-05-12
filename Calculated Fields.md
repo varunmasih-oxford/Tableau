@@ -154,6 +154,345 @@ DATEPART('month', [Order Date])
 
 ---
 
+## CHAR
+
+### Product Description
+```tableau
+CHAR(65)
+````
+
+### Result
+
+```text
+A
+```
+
+---
+
+## CONTAINS
+
+### Product Description
+
+```tableau
+CONTAINS("Calculation", "alcu")
+```
+
+### Result
+
+```text
+TRUE
+```
+
+---
+
+## ENDSWITH
+
+### Product Description
+
+```tableau
+ENDSWITH("Tableau", "leau")
+```
+
+### Result
+
+```text
+TRUE
+```
+
+---
+
+## FIND
+
+### Product Description
+
+```tableau
+FIND("Calculation", "alcu")
+```
+
+### Result
+
+```text
+2
+```
+
+---
+
+## FINDNTH
+
+### Product Description
+
+```tableau
+FINDNTH("Calculation", "a", 2)
+```
+
+### Result
+
+```text
+7
+```
+
+---
+
+## LEFT
+
+### Product Description
+
+```tableau
+LEFT("Matador", 4)
+```
+
+### Result
+
+```text
+Mata
+```
+
+---
+
+## LEN
+
+### Product Description
+
+```tableau
+LEN("Matador")
+```
+
+### Result
+
+```text
+7
+```
+
+---
+
+## LOWER
+
+### Product Description
+
+```tableau
+LOWER("ProductVersion")
+```
+
+### Result
+
+```text
+productversion
+```
+
+---
+
+## LTRIM
+
+### Product Description
+
+```tableau
+LTRIM(" Matador ")
+```
+
+### Result
+
+```text
+Matador 
+```
+
+---
+
+## MAX
+
+### Product Description
+
+```tableau
+MAX(4, 7)
+```
+
+### Result
+
+```text
+7
+```
+
+---
+
+## MID
+
+### Product Description
+
+```tableau
+MID("Calculation", 2, 5)
+```
+
+### Result
+
+```text
+alcul
+```
+
+---
+
+## MIN
+
+### Product Description
+
+```tableau
+MIN(4, 7)
+```
+
+### Result
+
+```text
+4
+```
+
+---
+
+## PROPER
+
+### Product Description
+
+```tableau
+PROPER("PRODUCT name")
+```
+
+### Result
+
+```text
+Product Name
+```
+
+---
+
+## REPLACE
+
+### Product Description
+
+```tableau
+REPLACE("Version 3.8", "3.8", "4x")
+```
+
+### Result
+
+```text
+Version 4x
+```
+
+---
+
+## RIGHT
+
+### Product Description
+
+```tableau
+RIGHT("Calculation", 4)
+```
+
+### Result
+
+```text
+tion
+```
+
+---
+
+## RTRIM
+
+### Product Description
+
+```tableau
+RTRIM(" Calculation ")
+```
+
+### Result
+
+```text
+ Calculation
+```
+
+---
+
+## SPACE
+
+### Product Description
+
+```tableau
+SPACE(2)
+```
+
+### Result
+
+```text
+  
+```
+
+---
+
+## SPLIT
+
+### Product Description
+
+```tableau
+SPLIT("a-b-c-d", "-", 2)
+```
+
+### Result
+
+```text
+b
+```
+
+---
+
+## STARTSWITH
+
+### Product Description
+
+```tableau
+STARTSWITH("Matador", "Ma")
+```
+
+### Result
+
+```text
+TRUE
+```
+
+---
+
+## TRIM
+
+### Product Description
+
+```tableau
+TRIM(" Calculation ")
+```
+
+### Result
+
+```text
+Calculation
+```
+
+---
+
+## UPPER
+
+### Product Description
+
+```tableau
+UPPER("Calculation")
+```
+
+### Result
+
+```text
+CALCULATION
+```
+
+---
+
+
+
+---
+
 ## Part 6: Build Visualizations Using Calculated Fields
 
 Create the following worksheets:
