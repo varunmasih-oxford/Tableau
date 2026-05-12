@@ -152,20 +152,6 @@ DATEPART('month', [Order Date])
 
 ```
 
----
-
-## CHAR
-
-### Product Description
-```tableau
-CHAR(65)
-````
-
-### Result
-
-```text
-A
-```
 
 ---
 
