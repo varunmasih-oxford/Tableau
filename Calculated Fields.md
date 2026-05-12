@@ -153,19 +153,37 @@ DATEPART('month', [Order Date])
 ```
 
 
+---````md id="u3m4zd"
+# Tableau String Functions
+
+---
+
+## CHAR
+
+### Convert ASCII Code to Character
+```tableau
+CHAR(65)
+````
+
+### Result
+
+```text id="4rfzqd"
+A
+```
+
 ---
 
 ## CONTAINS
 
-### Product Description
+### Check if String Contains Text
 
-```tableau
+```tableau id="39bgfu"
 CONTAINS("Calculation", "alcu")
 ```
 
 ### Result
 
-```text
+```text id="7wybd6"
 TRUE
 ```
 
@@ -173,15 +191,15 @@ TRUE
 
 ## ENDSWITH
 
-### Product Description
+### Check String Ending
 
-```tableau
+```tableau id="h9t7c0"
 ENDSWITH("Tableau", "leau")
 ```
 
 ### Result
 
-```text
+```text id="n0g5vi"
 TRUE
 ```
 
@@ -189,15 +207,15 @@ TRUE
 
 ## FIND
 
-### Product Description
+### Find Position of Text
 
-```tableau
+```tableau id="4zvqkn"
 FIND("Calculation", "alcu")
 ```
 
 ### Result
 
-```text
+```text id="0k9b7o"
 2
 ```
 
@@ -205,15 +223,15 @@ FIND("Calculation", "alcu")
 
 ## FINDNTH
 
-### Product Description
+### Find Nth Occurrence Position
 
-```tableau
+```tableau id="4wnr6r"
 FINDNTH("Calculation", "a", 2)
 ```
 
 ### Result
 
-```text
+```text id="iqk9q0"
 7
 ```
 
@@ -221,15 +239,15 @@ FINDNTH("Calculation", "a", 2)
 
 ## LEFT
 
-### Product Description
+### Extract Left Characters
 
-```tableau
+```tableau id="jlwm9s"
 LEFT("Matador", 4)
 ```
 
 ### Result
 
-```text
+```text id="jlwm9t"
 Mata
 ```
 
@@ -237,15 +255,15 @@ Mata
 
 ## LEN
 
-### Product Description
+### Count String Length
 
-```tableau
+```tableau id="jlwm9u"
 LEN("Matador")
 ```
 
 ### Result
 
-```text
+```text id="jlwm9v"
 7
 ```
 
@@ -253,15 +271,15 @@ LEN("Matador")
 
 ## LOWER
 
-### Product Description
+### Convert Text to Lowercase
 
-```tableau
+```tableau id="jlwm9w"
 LOWER("ProductVersion")
 ```
 
 ### Result
 
-```text
+```text id="jlwm9x"
 productversion
 ```
 
@@ -269,15 +287,15 @@ productversion
 
 ## LTRIM
 
-### Product Description
+### Remove Leading Spaces
 
-```tableau
+```tableau id="jlwm9y"
 LTRIM(" Matador ")
 ```
 
 ### Result
 
-```text
+```text id="jlwm9z"
 Matador 
 ```
 
@@ -285,15 +303,15 @@ Matador
 
 ## MAX
 
-### Product Description
+### Find Maximum Value
 
-```tableau
+```tableau id="8jp6n1"
 MAX(4, 7)
 ```
 
 ### Result
 
-```text
+```text id="8jp6n2"
 7
 ```
 
@@ -301,15 +319,15 @@ MAX(4, 7)
 
 ## MID
 
-### Product Description
+### Extract Middle Characters
 
-```tableau
+```tableau id="8jp6n3"
 MID("Calculation", 2, 5)
 ```
 
 ### Result
 
-```text
+```text id="8jp6n4"
 alcul
 ```
 
@@ -317,15 +335,15 @@ alcul
 
 ## MIN
 
-### Product Description
+### Find Minimum Value
 
-```tableau
+```tableau id="8jp6n5"
 MIN(4, 7)
 ```
 
 ### Result
 
-```text
+```text id="8jp6n6"
 4
 ```
 
@@ -333,15 +351,15 @@ MIN(4, 7)
 
 ## PROPER
 
-### Product Description
+### Convert Text to Proper Case
 
-```tableau
+```tableau id="8jp6n7"
 PROPER("PRODUCT name")
 ```
 
 ### Result
 
-```text
+```text id="8jp6n8"
 Product Name
 ```
 
@@ -349,15 +367,15 @@ Product Name
 
 ## REPLACE
 
-### Product Description
+### Replace Text in String
 
-```tableau
+```tableau id="8jp6n9"
 REPLACE("Version 3.8", "3.8", "4x")
 ```
 
 ### Result
 
-```text
+```text id="8jp6na"
 Version 4x
 ```
 
@@ -365,15 +383,15 @@ Version 4x
 
 ## RIGHT
 
-### Product Description
+### Extract Right Characters
 
-```tableau
+```tableau id="8jp6nb"
 RIGHT("Calculation", 4)
 ```
 
 ### Result
 
-```text
+```text id="8jp6nc"
 tion
 ```
 
@@ -381,15 +399,15 @@ tion
 
 ## RTRIM
 
-### Product Description
+### Remove Trailing Spaces
 
-```tableau
+```tableau id="8jp6nd"
 RTRIM(" Calculation ")
 ```
 
 ### Result
 
-```text
+```text id="8jp6ne"
  Calculation
 ```
 
@@ -397,15 +415,15 @@ RTRIM(" Calculation ")
 
 ## SPACE
 
-### Product Description
+### Generate Spaces
 
-```tableau
+```tableau id="8jp6nf"
 SPACE(2)
 ```
 
 ### Result
 
-```text
+```text id="8jp6ng"
   
 ```
 
@@ -413,15 +431,15 @@ SPACE(2)
 
 ## SPLIT
 
-### Product Description
+### Split String into Parts
 
-```tableau
+```tableau id="8jp6nh"
 SPLIT("a-b-c-d", "-", 2)
 ```
 
 ### Result
 
-```text
+```text id="8jp6ni"
 b
 ```
 
@@ -429,15 +447,15 @@ b
 
 ## STARTSWITH
 
-### Product Description
+### Check String Beginning
 
-```tableau
+```tableau id="8jp6nj"
 STARTSWITH("Matador", "Ma")
 ```
 
 ### Result
 
-```text
+```text id="8jp6nk"
 TRUE
 ```
 
@@ -445,15 +463,15 @@ TRUE
 
 ## TRIM
 
-### Product Description
+### Remove Leading and Trailing Spaces
 
-```tableau
+```tableau id="8jp6nl"
 TRIM(" Calculation ")
 ```
 
 ### Result
 
-```text
+```text id="8jp6nm"
 Calculation
 ```
 
@@ -461,15 +479,15 @@ Calculation
 
 ## UPPER
 
-### Product Description
+### Convert Text to Uppercase
 
-```tableau
+```tableau id="8jp6nn"
 UPPER("Calculation")
 ```
 
 ### Result
 
-```text
+```text id="8jp6no"
 CALCULATION
 ```
 
