@@ -153,24 +153,6 @@ DATEPART('month', [Order Date])
 ```
 
 
----````md id="u3m4zd"
-# Tableau String Functions
-
----
-
-## CHAR
-
-### Convert ASCII Code to Character
-```tableau
-CHAR(65)
-````
-
-### Result
-
-```text id="4rfzqd"
-A
-```
-
 ---
 
 ## CONTAINS
